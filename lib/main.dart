@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: ''),
     );
   }
 }
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text('Kelompok 6 SDGs 6'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -97,13 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            Text('NAMA : MOH. SHOLIHUL FAUZAN       NIM : 182410102014',),
+            Text('NAMA : ARIF NURUL RAHMAN HARTONO  NIM : 182410102015',),
+            Text('NAMA : AGUSTIAN ARMANDO           NIM : 182410102057',),
           ],
         ),
       ),
